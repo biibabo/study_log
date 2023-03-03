@@ -1,0 +1,121 @@
+#ucloudvm
+- test_createavm:
+    url: http://cmp-fe.prj-cmp-test.svc.c1.u4/api/gateway?Action=WorkflowCreateVM
+    json:
+      AccountId: 240
+      OrgId: 1
+      Platform: ucloud
+      PlatformId: 1
+      AccountName: uhybrid-ucmp（已验证）
+      VMInstances:
+        - Id: 1676026261667
+          Name: test
+          Count: 1
+          RegionEn: cn-sh2
+          ZoneEn: cn-sh2-01
+          ImageId: uimage-naikvu
+          MachineType: O
+          GPUType: ""
+          CPUPlatform: Intel/Auto
+          GPU: 0
+          CPU: 1
+          Memory: 1
+          Password: MXFheiFRQVoyd3N4QFdTWA==
+          ImageInfo:
+            ImageDescription: ""
+            ImageId: uimage-naikvu
+            ImageName: 高内核CentOS 7.9 64位
+            ImageSize: 20
+            ImageType: Base
+            OsName: 高内核CentOS 7.9 64位
+            OsType: Linux
+            State: Available
+            Zone: cn-sh2-01
+            SetArch: ""
+            IsSubscription: false
+          Flavor:
+            Id: Intel/Auto-O-1-1024-0
+            Disk: 0
+            RAM: 1024
+            Name: 快杰O型
+            VCPUs: 1
+            CPUName: ""
+            MaxDataDiskCount: 0
+            MachineType: O
+            GPUType: ""
+            GPU: 0
+            CPUPlatformId: Intel/Auto
+            CPUPlatformName: Intel
+          BootDiskType: CLOUD_RSSD
+          BootDiskSize: 20
+          Disks:
+            - Type: CLOUD_RSSD
+              Size: 20
+          VPCId: uvnet-f6h99i5038v
+          SubnetId: subnet-f6h9a246is8
+          WANSGId: firewall-en43hpag
+          CreateEIP: true
+          ChargeType: Dynamic
+          OperatorName: Bgp
+          EIPPayMode: Bandwidth
+          EIPBandwidth: 1
+- test_createavm:
+    url: http://cmp-fe.prj-cmp-test.svc.c1.u4/api/gateway?Action=WorkflowCreateVM
+    json:
+      AccountId: 240
+      OrgId: 1
+      Platform: ucloud
+      PlatformId: 1
+      AccountName: uhybrid-ucmp（已验证）
+      VMInstances:
+        - Id: 1676026261667
+          Name: test
+          Count: 1
+          RegionEn: cn-sh2
+          ZoneEn: cn-sh2-01
+          ImageId: uimage-naikvu
+          MachineType: O
+          GPUType: ""
+          CPUPlatform: Intel/Auto
+          GPU: 0
+          CPU: 1
+          Memory: 1
+          Password: MXFheiFRQVoyd3N4QFdTWA==
+          ImageInfo:
+            ImageDescription: ""
+            ImageId: uimage-naikvu
+            ImageName: 高内核CentOS 7.9 64位
+            ImageSize: 20
+            ImageType: Base
+            OsName: 高内核CentOS 7.9 64位
+            OsType: Linux
+            State: Available
+            Zone: cn-sh2-01
+            SetArch: ""
+            IsSubscription: false
+          Flavor:
+            Id: Intel/Auto-O-1-1024-0
+            Disk: 0
+            RAM: 1024
+            Name: 快杰O型
+            VCPUs: 1
+            CPUName: ""
+            MaxDataDiskCount: 0
+            MachineType: O
+            GPUType: ""
+            GPU: 0
+            CPUPlatformId: Intel/Auto
+            CPUPlatformName: Intel
+          BootDiskType: CLOUD_RSSD
+          BootDiskSize: 20
+          Disks:
+            - Type: CLOUD_RSSD
+              Size: 20
+          VPCId: uvnet-f6h99i5038v
+          SubnetId: subnet-f6h9a246is8
+          WANSGId: firewall-en43hpag
+          CreateEIP: true
+          ChargeType: Dynamic
+          OperatorName: Bgp
+          EIPPayMode: Bandwidth
+          EIPBandwidth: 1
