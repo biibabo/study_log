@@ -9,7 +9,7 @@
 # docker search jenkins
 # 第一个是官方的镜像，但是版本很旧，不推荐
 # 第二个镜像虽然不是官方的，但是 jenkins 的版本会跟随 jenkins官方的版本，也就是说会保持拉下来的镜像的 jenkins 版本是最新的，推荐，我也用这个
-# 第三个镜像是中文 jenkins 镜像， 但是镜像的系统不是我们所熟悉的 centos、ubuntu、Debian 等，而是 Alpine，安装依赖库的方式也不常见，不推荐
+# 第三个镜像是中文 jenkins 镜像， 但是镜像的系统不是我们所熟悉的 centos、ubuntu、Debian等，而是 Alpine，安装依赖库的方式也不常见，不推荐
 # docker pull jenkins/jenkins
 # docker images
 # 创建jenkins容器：
@@ -45,7 +45,7 @@
 # mv Python-3.8.6 py3.8
 # cd py3.8
 # 先配置下环境变量
-#  vim /etc/profile(注意：如果没有vim命令，使用apt-get -y install vim* 安装)
+# vim /etc/profile(注意：如果没有vim命令，使用apt-get -y install vim* 安装)
 #  在最后一行加上如下命令
 #  #Python3.8
 # export PYTHON_HOME=/var/jenkins_home/python3
