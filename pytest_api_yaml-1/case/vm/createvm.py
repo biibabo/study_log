@@ -10,7 +10,7 @@ from requests import Timeout
 from pytest_api_yaml.case.test.read_yaml import yamlUtil
 from pytest_api_yaml.config.conf import *
 
-vm_path = "//pytest_api_yaml/case/vm/ucloudvm.yaml"
+vm_path = "//pytest_api_yaml-1/case/vm/ucloudvm.yaml"
 
 lists = []
 
