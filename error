@@ -5,3 +5,21 @@ pywinauto是需要安装的包
 3) http://pypi.douban.com/simple/ 豆瓣
 4) https://pypi.tuna.tsinghua.edu.cn/simple/ 清华大学
 5) http://pypi.mirrors.ustc.edu.cn/simple/ 中国科学技术大学
+解决报错requests.exceptions.ConnectionError: HTTPSConnectionPool(host=‘xxx’, port=443): Max re
+
+# 没有的话请依次安装
+pip install certifi
+pip install cryptography
+pip install pyOpenSSL
+
+请在网页请求中加入：verify=False
+response = requests.get(url, headers=headers,verify=False)
+print(response)
+# 但是可能会出现 InsecureRequestWarning 警告，
+# 虽然不影响代码采集但是看着不舒服，可以加上下面两行：
+import urllib3
+urllib3.disable_warnings()
+  1、在代码中加入延迟 time.sleep(3)
+  2、更换IP
+  3、更换使用随机的UA
+  4、网络问题，更换网络或者使用手机流量
