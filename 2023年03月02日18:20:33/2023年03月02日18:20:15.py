@@ -58,3 +58,5 @@
 # 添加软链
 # 　ln -s /var/jenkins_home/python3/bin/python3.8  /usr/bin/python3
 # 　ln -s /var/jenkins_home/python3/bin/pip3 /usr/bin/pip3
+
+# 待续。。。。。
